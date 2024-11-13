@@ -1,0 +1,117 @@
+@layer components {
+
+    /* ----------- TEXT ----------- */ 
+
+    /* DEFAULT */
+    .text-primary {
+        @apply text-gray-900 dark:text-white-950
+    }
+
+    .text-secondary {
+        @apply text-gray-500 dark:text-white-500
+    }
+
+    .text-tertiary {
+        @apply text-gray-400 dark:text-white-400
+    }
+
+    /* BRAND */
+    .text-brand-primary {
+        @apply text-brand-800 dark:text-brand-100
+    }
+
+    .text-brand-secondary {
+        @apply text-brand-600 dark:text-brand-300
+    }
+
+    .text-brand-tertiary {
+        @apply text-brand-500 dark:text-brand-400
+    }
+
+    .text-on-brand-primary {
+        @apply text-brand-100 dark:text-brand-900
+    }
+
+    .text-on-brand-secondary {
+        @apply text-brand-900 dark:text-brand-100
+    }
+
+    .text-on-brand-tertiary {
+        @apply text-brand-800 dark:text-brand-100
+    }
+
+
+    /* ----------- BACKGROUND ----------- */ 
+    /* DEFAULT */
+    .bg-primary {
+        @apply bg-white-950 dark:bg-gray-900
+    }
+
+    .bg-secondary {
+        @apply bg-gray-100 dark:bg-gray-800
+    }
+
+    .bg-tertiary {
+        @apply bg-gray-300 dark:bg-gray-600
+    }
+
+    /* BRAND */
+    .bg-brand-primary {
+        @apply bg-brand-800 dark:bg-brand-100
+    }
+
+    .bg-brand-secondary {
+        @apply bg-brand-200 dark:bg-brand-600
+    }
+
+    .bg-brand-tertiary {
+        @apply bg-brand-100 dark:bg-brand-600
+    }
+
+
+    /* ----------- BORDER ----------- */ 
+    /* DEFAULT */
+    .border-primary {
+        @apply border-gray-300 dark:border-gray-600
+    }
+
+    .border-secondary {
+        @apply border-gray-500 dark:border-gray-500
+    }
+
+    .border-tertiary {
+        @apply border-gray-700 dark:border-gray-400
+    }
+
+
+    /* ----------- ICON ----------- */ 
+    /* DEFAULT */
+    .icon-primary {
+        @apply fill-gray-900 dark:fill-white-950
+    }
+
+    .icon-secondary {
+        @apply fill-gray-500 dark:fill-white-500
+    }
+
+    .icon-tertiary {
+        @apply fill-gray-400 dark:fill-white-400
+    }
+
+    
+    /* ----------- ICON ----------- */ 
+    /* DEFAULT */
+    .icon-stroke-primary {
+        @apply stroke-gray-900 dark:stroke-white-950
+    }
+
+    .icon-stroke-secondary {
+        @apply stroke-gray-500 dark:stroke-white-500
+    }
+
+    .icon-stroke-tertiary {
+        @apply stroke-gray-400 dark:stroke-white-400
+    }
+
+
+}
